@@ -47,8 +47,8 @@
 .cover {
     background-image: url(../images/cover.jpg);
     background-position: center;
-    height: 757px;  
-    padding: 165px 50px 237px;
+    /* height: 757px;  */
+    padding: 160px 50px 237px;
     position: relative;
     z-index: -1;   
 }
@@ -68,7 +68,7 @@
     display: block;
     font-size: 100%;
     width: 100%;
-    margin-bottom: 135px; 
+    margin-bottom: 127px; 
 }
 
 .aligned-text {
@@ -83,11 +83,13 @@
 
 .aligned-text_center {
     text-align: center;
+    padding-top: 9px;
 }
 
 .aligned-text_right {
     text-align: center;
     text-align: right;
+    padding-top: 3px;
 }
 
 .no-letter-spacing {

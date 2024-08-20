@@ -14,13 +14,12 @@
 .header_link_list {
     display: flex;
     gap: 32px;
-    line-height: 20px;
 }
 
 .header_link_list_item {
     list-style: circle;
     letter-spacing: 0.01em;
-    text-underline-position: under;
+    text-underline-position: under; 
 } 
 
 .header_link_list_no_bullit {
@@ -28,9 +27,13 @@
     letter-spacing: 0.01em;
 }
 
-.header_link_active {text-decoration: none;}
+.header_link_active {
+    text-decoration: none;
+}
 
-.header_logo {display: block;}
+.header_logo {
+    display: block;
+}
 
 .addres {
     font-style: normal;
@@ -65,7 +68,7 @@
     display: block;
     font-size: 100%;
     width: 100%;
-    margin-bottom: 147px; 
+    margin-bottom: 135px; 
 }
 
 .aligned-text {
@@ -78,14 +81,18 @@
     letter-spacing: 0.3em;
 }
 
-.aligned-text_center {text-align: center;}
+.aligned-text_center {
+    text-align: center;
+}
 
 .aligned-text_right {
     text-align: center;
     text-align: right;
 }
 
-.no-letter-spacing {letter-spacing: 60px;}
+.no-letter-spacing {
+    letter-spacing: 60px; 
+}
 
 .letter-spacing {
     letter-spacing: 60px;

@@ -226,26 +226,31 @@
     grid-template-columns: 334px 1fr;
     grid-template-rows: 248px 1fr;
     column-gap: 25px;
-    justify-content: center;
     align-items: center;
-    
+    justify-items: center; 
 }
 
 .about__column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #000000;
     border-radius: 50%;
-    justify-self: center; 
     width: 240px;
     height: 240px;
-    align-content: center;
+}
+
+.about__logo-image {
+    width: 100%;
 }
 
 .about__title {
+    text-align:justify;
     font-size: 40px;
     font-weight: 700;
-    text-align: left;
     text-transform: uppercase;
     padding-top: 98px;
+    padding-right: 402px; 
     padding-bottom: 92px;
 }
 

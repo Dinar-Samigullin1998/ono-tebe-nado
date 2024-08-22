@@ -157,26 +157,29 @@
     justify-content: space-between;
     width: 334px;
     padding: 51px 40px;
-    min-height: 100%;
+    min-height: 563px;
 }
 
 .card-link {
     text-align: center;
     text-decoration: none;
+    height: 100%;
 }
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover; 
+    height: 100%;  
 }
 
 .card_type_book{
     background-image: url(../images/card-lot-02.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;  
+    height: 100%;
 }
 
 .card_type_picture {
@@ -184,6 +187,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 
 .card__title {
@@ -216,3 +220,80 @@
     margin-left: 40px;
 }
 
+.about {
+    padding: 35px 24px 180px 24px;
+    display: grid;
+    grid-template-columns: 334px 1fr;
+    grid-template-rows: 248px 1fr;
+    column-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about__column {
+    background-color: #000000;
+    border-radius: 50%;
+    justify-self: center;
+    width: 240px;
+    height: 240px;
+    align-content: center;
+    justify-content: center;
+}
+
+.about__title {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 98px;
+    padding-bottom: 92px;
+}
+
+.about__text {
+    grid-column-start: 2;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.about__text__one__paragraph {
+    letter-spacing: 0.01em;
+}
+
+.about__text__two__paragraph {
+    line-height: 24.5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between; 
+    padding: 1px 50px 88px 50px;
+    font-size: 18px;
+}
+
+.footer__menu-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+}
+
+.footer__menu-list-item {
+    text-underline-position: under; 
+} 
+
+.footer__menu-link_active{
+    text-decoration: none;
+}
+
+.footer__social-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 48px;
+}

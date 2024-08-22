@@ -234,11 +234,10 @@
 .about__column {
     background-color: #000000;
     border-radius: 50%;
-    justify-self: center;
+    justify-self: center; 
     width: 240px;
     height: 240px;
     align-content: center;
-    justify-content: center;
 }
 
 .about__title {

@@ -227,12 +227,10 @@
     grid-template-rows: 248px 1fr;
     column-gap: 25px;
     align-items: center;
-    /* justify-items: center; */
     
 }
 
 .about__column {
-    /* align-self: center; */
     justify-self: center; 
     display: flex;
     align-items: center;
@@ -251,7 +249,6 @@
     font-weight: 700;
     text-transform: uppercase;
     padding-top: 98px;
-   /* padding-right: 402px; */
     padding-bottom: 92px;
 }
 
